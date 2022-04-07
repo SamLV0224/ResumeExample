@@ -1,0 +1,226 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+img {
+    width: 100%;
+}
+
+.header {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #04aa6d;
+    color: #fff;
+    font-size: 2rem;
+}
+
+.wrapper {
+    width: 30%;
+    margin: 1em;
+    float: left;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.profile-content-left {
+    position: relative;   
+}
+
+.margin-content-left {
+    margin-left: 5%;
+}
+
+.user-name {
+    position: absolute;
+    bottom: 12px;
+    left: 25px;
+    font-size: 2.5rem;
+}
+
+.user-info {
+    margin: 10px 0;
+}
+
+.profile-icon,
+.skill-content,
+.language-content {
+    margin-left: 20px;
+}
+
+.profile-icon p {
+    display: inline-block;
+    padding-left: 10px;
+    color: grey;
+}
+
+.skill-content p {
+    display: inline-block;
+    padding-left: 10px;
+    color: grey;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.user-skill,
+.user-language {
+    margin-left: 20px;
+    margin-bottom: 40px;
+}
+  
+.skill {
+    width: 100%;
+}
+
+.html {
+    width: 90%;
+    background-color: #04aa6d;
+    text-align: center;
+    padding: 0.3em 0.6em;
+    color: #fff;
+    border-radius: 100px;
+}
+  
+.css {
+    width: 80%;
+    background-color: #2196f3;
+    text-align: center;
+    padding: 0.3em 0.6em;
+    color: #fff;
+    border-radius: 100px;
+}
+  
+.js {
+    width: 65%;
+    background-color: #f44336;
+    text-align: center;
+    padding: 0.3em 0.6em;
+    color: #fff;
+    border-radius: 100px;
+}
+
+.language-content p {
+    display: inline-block;
+    padding-left: 10px;
+    color: grey;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.english {
+    width: 70%;
+    background-color: #04aa6d;
+    text-align: center;
+    padding: .7em;
+    color: #fff;
+    border-radius: 100px;
+}
+
+.chinese {
+    width: 90%;
+    background-color: #04aa6d;
+    text-align: center;
+    padding: .7em;
+    color: #fff;
+    border-radius: 100px;
+}
+
+.malay {
+    width: 50%;
+    background-color: #04aa6d;
+    text-align: center;
+    padding: .7em;
+    color: #fff;
+    border-radius: 100px;
+}
+
+.language-wrapper {
+    padding: 10px 0;
+}
+
+/* Work Experience container */
+
+.user-work-exp,
+.user-education {
+    display: flex;
+    align-items: center;
+}
+
+.user-work-exp-right {
+    width: 58%;
+    padding: 10px 30px;
+}
+
+.user-work-exp-right h2 {
+    color: grey;
+    font-size: 2.5rem;
+    padding-left: 20px;
+}
+
+.work-exp {
+    display: inline-block;
+    margin: 10px 0;
+    padding-left: 10px;
+    color: grey;
+    font-size: 1.3rem;
+}
+
+.accent {
+    background-color: #000;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.user-work-duration + .user-work-duration,
+.user-school + .user-school {
+    margin: 50px 0;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footer-bg {
+    background: #04aa6d;
+    width: 100%;
+}
+
+.footer-info {
+    text-align: center;
+    color: #fff;
+}
+
+.footer-info p {
+    font-size: 1.1rem;
+}
+
+.footer-info a {
+    color: #fff;
+}
+
+.fa-brands:hover {
+    opacity: .5;
+}
+
+@media (max-width: 720px) {
+    .wrapper {
+        width: 100%;
+    }
+
+    .margin-content-left,
+    .user-work-exp-right {
+        margin-left: 0;
+    }
+
+}
